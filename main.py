@@ -5,7 +5,7 @@ import random
 reddit = praw.Reddit(client_id = '', client_secret= '', password = '', username = '', user_agent = '' )
 
 #Subreddits which the bot can post on 
-subreddit = reddit.subreddit("weirdlittlebot")
+subreddit = reddit.subreddit("")
 
 # Keyphrase which calls the bot. 
 keyphrase = "!DankMeme"
